@@ -26,3 +26,6 @@ for f in onlyfiles:
     id += 1
 	
 print('Done.')
+
+key = input('Press any key to quit') 
+quit()
