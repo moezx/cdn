@@ -26,5 +26,5 @@ nav#comments-navi,.comnav,.comment .body,.comment .commeta,.comment .comment-rep
 .search-form--modal .search-form__inner,.search-form input,
 .s-search input,.err-button.back,
 #baguetteBox-overlay .full-image figcaption,#pagination {
-    font-family: 'Ubuntu',miranafont,"Hiragino Sans GB","Microsoft YaHei",STXihei,SimSun,sans-serif;
+    font-family: 'Ubuntu',miranafont,"Hiragino Sans GB","Microsoft YaHei",STXihei,SimSun,sans-serif;;
 }

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: YingXueJW;
+  src: url('https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.6.fonts.YingXue.FZXiJin/fonts/FZYingXueJW.TTF');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: EPSON-KAISHO;
+  src: url('EPSON-KAISHO.TTF');
+  font-weight: normal;
+}
+
+ 
+body,textarea,p,pre,.site-top,.video-stu,
+.pattern-center h1.cat-title,
+.pattern-center h1.entry-title,
+.pattern-center-sakura h1.cat-title,
+.pattern-center-sakura h1.entry-title,
+.site-main,.site-main rt,
+.entry-title a,
+.p-time,.post-list p,
+.info-meta,.s-time,
+.site-info,
+h1.page-title,
+.post-tags,.post-squares .category,.post-squares h3,.post-squares .label,
+.author-profile .meta h3 a,.mashiro-profile,
+h3#comments-list-title,
+#archives-temp,.links,
+span.linkss-title,
+nav#comments-navi,.comnav,.comment .body,.comment .commeta,.comment .comment-reply-link,.comment h4,
+.comment-respond textarea, .comment-respond input,.comment-respond textarea,
+.notification, .comment-respond .logged-in-as,.siren-checkbox-label,
+.top-feature,
+.notice,.bio-text,.header-info p,.top-social,.top-social,
+.search-form--modal .search-form__inner,.search-form input,
+.s-search input,.err-button.back,
+#baguetteBox-overlay .full-image figcaption,#pagination {
+    font-family: YingXueJW, EPSON-KAISHO;
+}
