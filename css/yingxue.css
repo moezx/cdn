@@ -1,12 +1,12 @@
 @font-face {
   font-family: YingXueJW;
-  src: url('https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.6.fonts.YingXue.FZXiJin/fonts/FZYingXueJW.TTF');
+  src: url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
   font-weight: normal;
 }
 
 @font-face {
   font-family: YingXueFW;
-  src: url('https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.6.fonts.YingXue.FZXiJin/fonts/FZYingXueFW.TTF');
+  src: url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
   font-weight: normal;
 }
 
