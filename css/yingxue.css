@@ -1,15 +1,3 @@
-@font-face {
-  font-family: YingXueJW;
-  src: url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: YingXueFW;
-  src: url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
-  font-weight: normal;
-}
-
 /*
  * YingXueJW, YingXueFW
  */
@@ -38,5 +26,5 @@ nav#comments-navi,.comnav,.comment .body,.comment .commeta,.comment .comment-rep
 .search-form--modal .search-form__inner,.search-form input,
 .s-search input,.err-button.back,
 #baguetteBox-overlay .full-image figcaption,#pagination {
-    font-family: YingXueJW, YingXueFW;
+    font-family: 'Ubuntu',miranafont,"Hiragino Sans GB","Microsoft YaHei",STXihei,SimSun,sans-serif;
 }
