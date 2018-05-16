@@ -1,11 +1,11 @@
 /*iconfont **/
 @font-face {
     font-family: "iconfont";
-  src: url('../fonts/sakura-theme/iconfont.eot?t=1461591491'); /* IE9*/
-  src: url('../fonts/sakura-theme/iconfont.eot?t=1461591491#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../fonts/sakura-theme/iconfont.woff?t=1461591491') format('woff'), /* chrome, firefox */
-  url('../fonts/sakura-theme/iconfont.ttf?t=1461591491') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('../fonts/sakura-theme/iconfont.svg?t=1461591491#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('https://cdn.jsdelivr.net/gh/moezx/cdn@3.2.0/fonts/sakura-theme/iconfont.eot?t=1461591491'); /* IE9*/
+  src: url('https://cdn.jsdelivr.net/gh/moezx/cdn@3.2.0/fonts/sakura-theme/iconfont.eot?t=1461591491#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('https://cdn.jsdelivr.net/gh/moezx/cdn@3.2.0/fonts/sakura-theme/iconfont.woff?t=1461591491') format('woff'), /* chrome, firefox */
+  url('https://cdn.jsdelivr.net/gh/moezx/cdn@3.2.0/fonts/sakura-theme/iconfont.ttf?t=1461591491') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('https://cdn.jsdelivr.net/gh/moezx/cdn@3.2.0/fonts/sakura-theme/iconfont.svg?t=1461591491#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
