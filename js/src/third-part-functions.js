@@ -17,6 +17,7 @@ hljs.registerLanguage("r",function(e){var r="([a-zA-Z]|\\.[a-zA-Z.])[a-zA-Z0-9._
 // Initial
 try {
 	hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
 } catch (e) {}
 
 // sync css
