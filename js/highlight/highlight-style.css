@@ -1,0 +1,61 @@
+/**highlight.js语法高亮样式 Default**/
+.hljs{display:block;overflow-x:auto;padding:.5em;color:#abb2bf;background:rgba(254, 250, 199,0.5);border-radius:10px;}
+.hljs-comment,.hljs-quote{color:#888f96;font-style:italic}
+.hljs-doctag,.hljs-formula,.hljs-keyword{color:#c678dd}
+.hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst{color:#e06c75}
+.hljs-literal{color:#56b6c2}
+.hljs-addition,.hljs-attribute,.hljs-meta-string,.hljs-regexp,.hljs-string{color:#98c379}
+.hljs-built_in,.hljs-class .hljs-title{color:#e6c07b}
+.hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable{color:#d19a66}
+.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title{color:#61aeee}
+.hljs-emphasis{font-style:italic}
+.hljs-strong{font-weight:700}
+.hljs-link{text-decoration:underline}
+.hljs-ln{margin: 6px 0 0 0 !important;}
+/* for block of numbers */
+td.hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    color: #888f96;
+    background: #1d1f21;
+    font-family: monospace,miranafont,"Hiragino Sans GB","Microsoft YaHei",STXihei,SimSun,sans-serif;
+    vertical-align: top;
+    position: absolute;
+    left: 0;
+    width: 30px;
+    margin-top: 0.5px;
+    /* your custom style here */
+}
+/* for block of code */
+td.hljs-ln-code {
+    padding-left: 30px !important;
+}
+/*code block full screen*/
+.code-block-fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    z-index: 9999999;
+    margin: 0;
+    animation: elastic 1s;
+}
+.code-block-fullscreen code {
+    --widthA: 100%;
+    --widthB: calc(var(--widthA) - 30px);
+    height: var(--widthB);
+    min-height: 99%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    height: auto;
+}
+.code-block-fullscreen-html-scroll {
+    overflow: hidden;
+}
