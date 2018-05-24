@@ -11,6 +11,9 @@ from os import listdir
 from os.path import isfile, join
 from jsmin import jsmin
 from csscompressor import compress
+import time
+localtime = time.asctime( time.localtime(time.time()) )
+print (localtime)
 
 pathJS = 'js/src/'
 pathJSroot = 'js/'
@@ -20,8 +23,8 @@ pathCSSroot = 'css/'
 jsfiles = [f for f in listdir(pathJS) if isfile(join(pathJS, f))]
 cssfiles = [f for f in listdir(pathCSS) if isfile(join(pathCSS, f))]
 
-strJS = ''
-strCSS = ''
+strJS = '/*! Generate by Mashiro. ' + localtime + '*/'
+strCSS = '/*! Generate by Mashiro. ' + localtime + '*/'
 
 for f in jsfiles:
     with open(pathJS + f, 'r') as file:
