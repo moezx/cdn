@@ -12,6 +12,8 @@ from os.path import isfile, join
 from jsmin import jsmin
 from csscompressor import compress
 import time
+import codecs
+
 localtime = time.asctime( time.localtime(time.time()) )
 print (localtime)
 
@@ -27,28 +29,28 @@ strJS = '/*! Generate by Mashiro. ' + localtime + '*/'
 strCSS = '/*! Generate by Mashiro. ' + localtime + '*/'
 
 for f in jsfiles:
-    with open(pathJS + f, 'r') as file:
+    with codecs.open(pathJS + f, 'r', encoding='utf-8') as file:
         data = file.read()
     strJS = strJS + data
     print(f)
         
 JSminified = jsmin(strJS)
         
-with open(pathJSroot + "lib.js", "w") as text_file:
+with codecs.open(pathJSroot + "lib.js", "w", encoding='utf-8') as text_file:
     print(JSminified, file=text_file)
     
     
 print('------------------JS Done------------------')
     
 for f in cssfiles:
-    with open(pathCSS + f, 'r') as file:
+    with codecs.open(pathCSS + f, 'r', encoding='utf-8') as file:
         data = file.read()
     strCSS = strCSS + data
     print(f)
       
 CSSminified = compress(strCSS)
       
-with open(pathCSSroot + "lib.css", "w") as text_file:
+with codecs.open(pathCSSroot + "lib.css", "w", encoding='utf-8') as text_file:
     print(CSSminified, file=text_file)
     
 print('------------------CSS Done------------------')
