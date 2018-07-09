@@ -132,6 +132,7 @@
     right: calc(2% + 6px);
     width: 30px;
     height: 30px;
+    box-shadow: none;
 }
 
 .baguetteBox-button svg {
