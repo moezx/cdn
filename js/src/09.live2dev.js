@@ -4125,6 +4125,7 @@
     }, r.prototype.loadTexture = function (t, i, e, r) {
         var n = new Image;
         n.src = e+"?"+Math.random(), n.crossOrigin = "Anonymous";
+        n.src = Live2D_img_path;
         console.info(n.src);
         n.onload = function () {
             var e = (0, o.getContext)(),
