@@ -4125,6 +4125,7 @@
     }, r.prototype.loadTexture = function (t, i, e, r) {
         var n = new Image;
         n.src = e+"?"+Math.random(), n.crossOrigin = "Anonymous";
+        console.info(n.src);
         n.onload = function () {
             var e = (0, o.getContext)(),
                 s = e.createTexture();
