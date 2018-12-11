@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'FZLiBian-S02S';
+    src: url('FZLBJW--GB1-0.eot');
+    src: url('FZLBJW--GB1-0.eot?#iefix') format('embedded-opentype'),
+        url('FZLBJW--GB1-0.woff2') format('woff2'),
+        url('FZLBJW--GB1-0.woff') format('woff'),
+        url('FZLBJW--GB1-0.ttf') format('truetype'),
+        url('FZLBJW--GB1-0.svg#FZLBJW--GB1-0') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
