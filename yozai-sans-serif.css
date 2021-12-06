@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'yozai-sans-serif';
+  src: local('Roboto Italic'),
+    url('https://cdn.jsdelivr.net/gh/lxgw/yozai-font@master/ttf/Yozai-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'yozai-sans-serif';
+  src: local('Roboto Bold'),
+  url('https://cdn.jsdelivr.net/gh/lxgw/yozai-font@master/ttf/Yozai-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'yozai-sans-serif';
+  src: local('Roboto Medium'),
+  url('https://cdn.jsdelivr.net/gh/lxgw/yozai-font@master/ttf/Yozai-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'yozai-sans-serif';
+  src: local('Roboto'),
+  url('https://cdn.jsdelivr.net/gh/lxgw/yozai-font@master/ttf/Yozai-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
